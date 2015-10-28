@@ -1,0 +1,7 @@
+<!-- Use autoForm to display apartment detail -->
+<!-- also you can update the detail here -->
+<template name="apartmentDetail">
+	<a href="{{pathFor "apartmentList"}}">Back to Apartment List</a>
+	<h1>Edit "{{name}}"</h1>
+	{{> quickForm collection="Apartments" doc=this id="updateApartmentDetail" type="update"}}
+</template>

@@ -1,0 +1,10 @@
+<!-- use Meteor.Pagination to display ApartmentPage -->
+<template name="apartmentList">
+	<h4>Minneapolis, MN: {{apartmentNumber}} Apartments</h4>
+	<div class="order-button">
+		<button class="btn btn-default order-popularity {{OrderByPopularity}}">Popularity</button>
+		<button class="btn btn-default order-price {{OrderByPrice}}">Price</button>
+	</div>
+	{{> pages}}
+  {{> pagesNav}}
+</template>

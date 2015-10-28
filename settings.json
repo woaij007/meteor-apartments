@@ -1,0 +1,38 @@
+{
+	"apartments": [
+    {
+    	"name": "The Pavilion on Berry",
+    	"image": ["image-1.jpg", "image-2.jpg", "image-3.jpg", "image-4.jpg"],
+    	"price": 512,
+    	"popularity": 4,
+    	"description1": "University of Minnesota, Twin Cities", 
+        "description2": "Minneapolis, MN"
+    },
+    {        	
+    	"name": "Radius @15th",
+    	"image": ["image-4.jpg", "image-1.jpg", "image-2.jpg", "image-3.jpg"],
+    	"price": 492,
+    	"popularity": 5,
+    	"description1": "University of Minnesota, Twin Cities", 
+        "description2": "Minneapolis, MN"
+    },
+    {
+
+    	"name": "416 Lofts",
+    	"image": ["image-3.jpg", "image-4.jpg", "image-1.jpg", "image-2.jpg"],
+    	"price": 460,
+    	"popularity": 3,
+    	"description1": "University of Minnesota, Twin Cities", 
+        "description2": "Minneapolis, MN"
+    },
+    {
+
+    	"name": "Edge on Oak",
+    	"image": ["image-2.jpg", "image-3.jpg", "image-4.jpg", "image-1.jpg"],
+    	"price": 532,
+    	"popularity": 7,
+    	"description1": "University of Minnesota, Twin Cities", 
+        "description2": "Minneapolis, MN"
+    }
+	]
+}

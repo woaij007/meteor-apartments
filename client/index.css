@@ -1,0 +1,106 @@
+/*CSS file for whole site*/
+/*body font family*/
+body {
+    font-family: "Verdana", Geneva, sans-serif;
+    line-height: 1;
+}
+/*line style*/
+hr {
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+/*price number font*/
+span {
+    font-size: 40px;
+}
+/*image float left*/
+img {
+    float: left;
+    width: 300px;
+    height: 212px;
+    margin-left: -15px;
+    margin-right: 10px;
+}
+/*Set container style*/
+.container {
+    width: 700px;
+    background: #eee;
+}
+/*Change apartment name link style*/
+.apartment-name:before {
+    content: '';
+    display: block;
+    height: 15px;
+}
+.apartment-name {
+    color: #000000;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none; 
+}
+.apartment-name:hover {
+    text-decoration: underline;
+}
+/*let apartment list align center*/
+.col-center-block {  
+    background-color: #fff;
+    display: block;
+    width: 680px;
+    margin-top: 8px;   
+    margin-left: 10px;   
+}
+
+/*Make price tag go bottom right */ 
+.bottom::before {
+    content: '';
+    display: block;
+    height: 50px;
+}
+
+/*Set price tag color*/
+.bottom {
+    color: #ffc400;
+}
+
+/*CSS for button*/
+/*Float right*/
+.order-button {
+    text-align: right;
+}
+
+/*Change the default bootstrap button style*/
+.order-popularity,
+.order-price{
+    outline:0px !important;
+    -webkit-appearance:none;
+    border-radius: 0px;
+    background-color: #eee;
+}
+
+.order-popularity:focus,
+.order-price:focus {
+    border-radius: 0px;
+    border-color: #ffc400;
+    background: #ffc400;
+}
+
+.order-popularity:active,
+.order-price:active {
+    border-color: #ffc400;
+    background: #ffc400 !important;
+}
+
+/*Change the button color when we click it*/
+.unclicked-button {
+    font-color: #e0e0e0;
+}
+
+.clicked-button {
+    border-color: #ffc400;
+    background: #ffc400;
+}
+
+/*When your mouse over certain apartment div, it changes its background color*/
+.selected {
+    background-color: #e0e0e0;
+}

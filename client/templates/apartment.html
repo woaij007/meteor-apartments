@@ -1,0 +1,14 @@
+<!-- Single apartment template Card -->
+<template name="apartment">
+	<div class="row">
+		<div class="col-md-12 col-xs-12 col-center-block {{selectedClass}}">
+			<img src="{{imgUrl}}">
+				<a class="apartment-name" href="{{pathFor 'apartmentDetail'}}">{{name}}</a>
+				<hr class="divider">
+				<p> <small>{{description1}}</small><br><small>{{description2}}</small> </p>
+				<div class="bottom">
+					<p class="text-right"><small>From </small><span>${{price}}</span><br><small>USD/Month</small></p>
+				</div>
+		</div>
+	</div>
+</template>
